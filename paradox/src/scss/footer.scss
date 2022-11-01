@@ -1,0 +1,19 @@
+.footer-container {
+	background-image: url("../assets/nature.jpeg");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	height: 500px;
+	.footer-row {
+		.footer-col {
+			.footer-card {
+				background-color: rgba($color: #fff, $alpha: 0.5);
+				.footerCardBody {
+					button {
+						margin: 10rem 0px 5rem 0rem;
+					}
+				}
+			}
+		}
+	}
+}
