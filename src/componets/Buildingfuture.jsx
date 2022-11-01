@@ -1,22 +1,22 @@
 import React from "react";
 
 import { Container } from "react-bootstrap";
-import Card from 'react-bootstrap/Card';
+import Card from "react-bootstrap/Card";
+
+import img from "../assets/original.jpeg";
+
+import "../scss/building.scss"
 
 const Buildingfuture = () => {
 	return (
 		<>
-			<Container>
-				<Card className="bg-dark text-white">
-					<Card.Img src="holder.js/100px270" alt="Card image" />
+			<Container className="mt-4 buildingTF-container" fluid>
+				<Card className="bg-dark text-white border-0 btf-card">
+					<Card.Img src={img} alt="..." className="rounded-0 btf-img opacity-75" />
 					<Card.ImgOverlay>
-						<Card.Title>Card title</Card.Title>
-						<Card.Text>
-							This is a wider card with supporting text below as a
-							natural lead-in to additional content. This content
-							is a little bit longer.
-						</Card.Text>
-						<Card.Text>Last updated 3 mins ago</Card.Text>
+						<Card.Title className="text-center text-dark">
+							<h1> Building the future</h1>
+						</Card.Title>
 					</Card.ImgOverlay>
 				</Card>
 			</Container>

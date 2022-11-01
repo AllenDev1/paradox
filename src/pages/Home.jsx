@@ -1,5 +1,7 @@
 import React from "react";
 import Buildingfuture from "../componets/Buildingfuture";
+import Features from "../componets/Features";
+import Footer from "../componets/Footer";
 import Herovideo from "../componets/Herovideo";
 import Topnav from "../componets/Topnav";
 
@@ -10,6 +12,8 @@ const Home = () => {
 			<Topnav />
             <Herovideo />
             <Buildingfuture />
+            <Features />
+            <Footer />
 		</>
 	);
 };
